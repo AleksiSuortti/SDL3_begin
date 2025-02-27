@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/aleksisuo/Projects/cpp/SDL3_begin/build",
+  "command": "/usr/bin/g++  -I/home/aleksisuo/Projects/cpp/SDL3_begin/include -g -o CMakeFiles/TestProject.dir/src/main.cpp.o -c /home/aleksisuo/Projects/cpp/SDL3_begin/src/main.cpp",
+  "file": "/home/aleksisuo/Projects/cpp/SDL3_begin/src/main.cpp"
+},
+{
+  "directory": "/home/aleksisuo/Projects/cpp/SDL3_begin/build",
+  "command": "/usr/bin/g++  -I/home/aleksisuo/Projects/cpp/SDL3_begin/include -g -o CMakeFiles/TestProject.dir/src/renderer.cpp.o -c /home/aleksisuo/Projects/cpp/SDL3_begin/src/renderer.cpp",
+  "file": "/home/aleksisuo/Projects/cpp/SDL3_begin/src/renderer.cpp"
+}
+]

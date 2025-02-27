@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/TestProject.dir/src/main.cpp.o CMakeFiles/TestProject.dir/src/renderer.cpp.o -o TestProject  -lSDL3 
