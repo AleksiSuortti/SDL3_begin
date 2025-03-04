@@ -5,8 +5,8 @@
 #include <math.h>
 #include <string>
 
-#define WIDTH 1200
-#define HEIGHT 900
+#define WIDTH 600
+#define HEIGHT 400
 
 int main()
 {
@@ -71,6 +71,10 @@ int main()
         {0,1},{1,2},{2,3},{3,0}
     };
 
+    Object::Wireframe_tri plane_tri;
+
+    plane_tri.addTriangles({{Vector3(-5, -1, -5), Vector3(5, -1, -5), Vector3(5, -1, 5)}});
+    plane_tri.addTriangles({{Vector3(-5, -1, -5), Vector3(-5, -1, 5), Vector3(5, -1, 5)}});
     while(program_running)
     {
         while(SDL_PollEvent(&event))
@@ -106,6 +110,9 @@ int main()
             target, COLOR_RED);
         Object::renderWireframe(renderer, &plane, camX, camY, camZ, fov, WIDTH, HEIGHT,
             target, COLOR_WHITE);
+
+        Object::renderWireframe_tri(renderer, &plane_tri, camX, camY, camZ, fov, WIDTH, HEIGHT,
+        target, COLOR_RED);
 
         SDL_RenderPresent(renderer);
         SDL_Delay(1);

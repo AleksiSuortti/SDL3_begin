@@ -93,8 +93,10 @@ namespace Object {
         Vector3 normal;
 
         Triangle() : vertices(), normal() {}
+
+        // This implementation is a little awkward, change when necessary
         Triangle(const std::array<Vector3, 3> &verts) : vertices(verts),
-            normal((verts[0] - verts[1]).cross(verts[1] - verts[2])) {}
+            normal((verts[1] - verts[0]).cross(verts[2] - verts[0])) {}
     };
 
     struct Wireframe_tri {

@@ -82,8 +82,28 @@ void Object::renderWireframe_tri(SDL_Renderer* renderer, Object::Wireframe_tri* 
 
     SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
 
-    
+    Matrix4 model = Matrix4::translate(wireframe->origin.x, wireframe->origin.y, wireframe->origin.z);
+    Vector3 viewpoint = Vector3(camX, camY, camZ);
+    Vector3 up = Vector3(0,1,0);
+    Matrix4 view = Matrix4::lookAt(viewpoint, target, up);
+    Matrix4 projection = Matrix4::perspective(fov, width/height, 0.1f, 50.0f);
 
+    Matrix4 MVP = projection * view * model;
+
+    for (int i = 0; i < wireframe->triangles.size(); i++) {
+        Triangle& tri = wireframe->triangles[i];
+
+        // Maybe a little scuffed way to compute the view direction from the viewport to a triangle
+        Vector3 viewDir = (tri.vertices[0] - viewpoint).normalize(); 
+
+        // If the triangle normal points toward the viewport
+        if (viewDir.dot(tri.normal) < 0) { 
+            printf("Triangle %d is visible, normal : %f\n", i, viewDir.dot(tri.normal));
+        }
+        else {
+            printf("Triangle %d is not visible, normal: %f", i, viewDir.dot(tri.normal));
+        }
+    }    
 }
 
 SDL_Renderer* initRenderer(SDL_Window* window)
