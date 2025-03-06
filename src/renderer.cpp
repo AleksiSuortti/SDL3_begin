@@ -94,11 +94,13 @@ void Object::renderWireframe_tri(SDL_Renderer* renderer, Object::Wireframe_tri* 
         Triangle& tri = wireframe->triangles[i];
 
         // Maybe a little scuffed way to compute the view direction from the viewport to a triangle
-        Vector3 viewDir = (tri.vertices[0] - viewpoint).normalize(); 
+        Vector3 viewDir = (tri.vertices[0] - viewpoint).normalize();
+
+        printf("Viewdir: (%f, %f, %f)\n", viewDir.x, viewDir.y, viewDir.z);
 
         // If the triangle normal points toward the viewport
-        if (viewDir.dot(tri.normal) < 0) { 
-            printf("Triangle %d is visible, normal : %f\n", i, viewDir.dot(tri.normal));
+        if (viewDir.dot(tri.normal.normalize()) < 0) { 
+            printf("Triangle %d is visible, normal : %f\n", i, viewDir.dot(tri.normal.normalize()));
         }
         else {
             printf("Triangle %d is not visible, normal: %f", i, viewDir.dot(tri.normal));

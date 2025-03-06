@@ -73,7 +73,7 @@ int main()
 
     Object::Wireframe_tri plane_tri;
 
-    plane_tri.addTriangles({{Vector3(-5, -1, -5), Vector3(5, -1, -5), Vector3(5, -1, 5)}});
+    plane_tri.addTriangles({{Vector3(-5, -1, -5), Vector3(5, -1, 5), Vector3(5, -1, -5)}});
     plane_tri.addTriangles({{Vector3(-5, -1, -5), Vector3(-5, -1, 5), Vector3(5, -1, 5)}});
     while(program_running)
     {
