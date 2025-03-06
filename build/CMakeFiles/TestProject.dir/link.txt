@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/TestProject.dir/src/main.cpp.o CMakeFiles/TestProject.dir/src/renderer.cpp.o -o TestProject  -lSDL3 
+/usr/bin/g++ -g CMakeFiles/TestProject.dir/src/main.cpp.o CMakeFiles/TestProject.dir/src/renderer.cpp.o -o TestProject  -Wl,-rpath,/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3 /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/libSDL3.so 

@@ -1,5 +1,5 @@
-CMakeFiles/TestProject.dir/main.cpp.o: \
- /home/aleksisuo/Projects/cpp/SDL3_begin/main.cpp \
+CMakeFiles/TestProject.dir/src/main.cpp.o: \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -147,48 +147,93 @@ CMakeFiles/TestProject.dir/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/local/include/SDL3/SDL.h \
- /usr/local/include/SDL3/SDL_stdinc.h \
- /usr/local/include/SDL3/SDL_platform_defines.h /usr/include/string.h \
- /usr/include/strings.h /usr/local/include/SDL3/SDL_begin_code.h \
- /usr/local/include/SDL3/SDL_close_code.h \
- /usr/local/include/SDL3/SDL_assert.h \
- /usr/local/include/SDL3/SDL_asyncio.h \
- /usr/local/include/SDL3/SDL_atomic.h /usr/local/include/SDL3/SDL_audio.h \
- /usr/local/include/SDL3/SDL_endian.h /usr/local/include/SDL3/SDL_error.h \
- /usr/local/include/SDL3/SDL_mutex.h /usr/local/include/SDL3/SDL_thread.h \
- /usr/local/include/SDL3/SDL_properties.h \
- /usr/local/include/SDL3/SDL_iostream.h \
- /usr/local/include/SDL3/SDL_bits.h \
- /usr/local/include/SDL3/SDL_blendmode.h \
- /usr/local/include/SDL3/SDL_camera.h \
- /usr/local/include/SDL3/SDL_pixels.h \
- /usr/local/include/SDL3/SDL_surface.h /usr/local/include/SDL3/SDL_rect.h \
- /usr/local/include/SDL3/SDL_clipboard.h \
- /usr/local/include/SDL3/SDL_cpuinfo.h \
- /usr/local/include/SDL3/SDL_dialog.h /usr/local/include/SDL3/SDL_video.h \
- /usr/local/include/SDL3/SDL_events.h \
- /usr/local/include/SDL3/SDL_gamepad.h /usr/local/include/SDL3/SDL_guid.h \
- /usr/local/include/SDL3/SDL_joystick.h \
- /usr/local/include/SDL3/SDL_power.h /usr/local/include/SDL3/SDL_sensor.h \
- /usr/local/include/SDL3/SDL_keyboard.h \
- /usr/local/include/SDL3/SDL_keycode.h \
- /usr/local/include/SDL3/SDL_scancode.h \
- /usr/local/include/SDL3/SDL_mouse.h /usr/local/include/SDL3/SDL_pen.h \
- /usr/local/include/SDL3/SDL_touch.h \
- /usr/local/include/SDL3/SDL_filesystem.h \
- /usr/local/include/SDL3/SDL_gpu.h /usr/local/include/SDL3/SDL_haptic.h \
- /usr/local/include/SDL3/SDL_hidapi.h /usr/local/include/SDL3/SDL_hints.h \
- /usr/local/include/SDL3/SDL_init.h /usr/local/include/SDL3/SDL_loadso.h \
- /usr/local/include/SDL3/SDL_locale.h /usr/local/include/SDL3/SDL_log.h \
- /usr/local/include/SDL3/SDL_messagebox.h \
- /usr/local/include/SDL3/SDL_metal.h /usr/local/include/SDL3/SDL_misc.h \
- /usr/local/include/SDL3/SDL_platform.h \
- /usr/local/include/SDL3/SDL_process.h \
- /usr/local/include/SDL3/SDL_render.h \
- /usr/local/include/SDL3/SDL_storage.h \
- /usr/local/include/SDL3/SDL_system.h /usr/local/include/SDL3/SDL_time.h \
- /usr/local/include/SDL3/SDL_timer.h /usr/local/include/SDL3/SDL_tray.h \
- /usr/local/include/SDL3/SDL_version.h \
- /usr/local/include/SDL3/SDL_oldnames.h \
- /usr/local/include/SDL3_ttf/SDL_ttf.h
+ /usr/include/c++/12/bits/istream.tcc \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_stdinc.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform_defines.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_begin_code.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_close_code.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_assert.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_asyncio.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_atomic.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_audio.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_endian.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_error.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mutex.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_thread.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_properties.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_iostream.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_bits.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_blendmode.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_camera.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pixels.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_surface.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_rect.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_clipboard.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_cpuinfo.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_dialog.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_video.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_events.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gamepad.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_guid.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_joystick.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_power.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_sensor.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keyboard.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keycode.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_scancode.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mouse.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pen.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_touch.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_filesystem.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gpu.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_haptic.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hidapi.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hints.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_init.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_loadso.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_locale.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_log.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_messagebox.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_metal.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_misc.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_process.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_render.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_storage.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_system.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_time.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_timer.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_tray.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_version.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_oldnames.h \
+ /home/aleksisuo/Projects/cpp/SDL3_begin/include/renderer.h \
+ /usr/include/c++/12/math.h /usr/include/c++/12/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/12/bits/specfun.h /usr/include/c++/12/limits \
+ /usr/include/c++/12/tr1/gamma.tcc \
+ /usr/include/c++/12/tr1/special_function_util.h \
+ /usr/include/c++/12/tr1/bessel_function.tcc \
+ /usr/include/c++/12/tr1/beta_function.tcc \
+ /usr/include/c++/12/tr1/ell_integral.tcc \
+ /usr/include/c++/12/tr1/exp_integral.tcc \
+ /usr/include/c++/12/tr1/hypergeometric.tcc \
+ /usr/include/c++/12/tr1/legendre_function.tcc \
+ /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/12/tr1/poly_hermite.tcc \
+ /usr/include/c++/12/tr1/poly_laguerre.tcc \
+ /usr/include/c++/12/tr1/riemann_zeta.tcc /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/array \
+ /usr/include/c++/12/compare

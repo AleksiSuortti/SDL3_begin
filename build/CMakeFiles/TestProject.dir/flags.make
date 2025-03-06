@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/aleksisuo/Projects/cpp/SDL3_begin/include
+CXX_INCLUDES = -I/home/aleksisuo/Projects/cpp/SDL3_begin/include -I/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3
 
 CXX_FLAGS = -g
 

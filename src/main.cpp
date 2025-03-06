@@ -5,8 +5,8 @@
 #include <math.h>
 #include <string>
 
-#define WIDTH 600
-#define HEIGHT 400
+#define WIDTH 1200
+#define HEIGHT 900
 
 int main()
 {
@@ -41,8 +41,9 @@ int main()
     bool program_running = 1;
     float fov = 90;
     float camX = 0, camY = 3, camZ = 0;
-    float r = 10;
+    float r = 7;
     float angle = 0;
+    float size = 2;
     Vector3 target = {0,0,0};
 
     Object::Wireframe cube;
@@ -58,6 +59,7 @@ int main()
         {0,4}, {1,5}, {2,6}, {3,7}   // Connecting edges
     };
 
+    cube.location = {-3,0,-3};
     Object::Wireframe cube2;
     cube2 = cube;
     cube2.location = {5,5,5};
@@ -75,6 +77,30 @@ int main()
 
     plane_tri.addTriangles({{Vector3(-5, -1, -5), Vector3(5, -1, 5), Vector3(5, -1, -5)}});
     plane_tri.addTriangles({{Vector3(-5, -1, -5), Vector3(-5, -1, 5), Vector3(5, -1, 5)}});
+    
+    // There has to be a more convenient way
+    Object::Wireframe_tri cube_tri;
+
+    cube_tri.addTriangles({{Vector3(size, 0, size), Vector3(0, 0, size), Vector3(0, 0, 0)}}); // Bottom face
+    cube_tri.addTriangles({{Vector3(0, 0, 0), Vector3(size, 0, 0), Vector3(size, 0, size)}});
+
+    cube_tri.addTriangles({{Vector3(0, 0, 0), Vector3(0, 0, size), Vector3(0, size, size)}}); // Left face
+    cube_tri.addTriangles({{Vector3(0, 0, 0), Vector3(0, size, size), Vector3(0, size, 0)}});
+
+    cube_tri.addTriangles({{Vector3(size, 0, 0), Vector3(0, 0, 0), Vector3(0, size, 0)}}); // Back face
+    cube_tri.addTriangles({{Vector3(size, 0, 0), Vector3(0, size, 0), Vector3(size, size, 0)}});
+
+    cube_tri.addTriangles({{Vector3(size, 0, size), Vector3(size, 0, 0), Vector3(size, size, 0)}}); // Right face
+    cube_tri.addTriangles({{Vector3(size, 0, size), Vector3(size, size, 0), Vector3(size, size, size)}});
+
+    cube_tri.addTriangles({{Vector3(0, 0, size), Vector3(size, 0, size), Vector3(size, size, size)}}); // Front face
+    cube_tri.addTriangles({{Vector3(0, 0, size), Vector3(size, size, size), Vector3(0, size, size)}});
+
+    cube_tri.addTriangles({{Vector3(0, size, 0), Vector3(0, size, size), Vector3(size, size, size)}}); // Top face
+    cube_tri.addTriangles({{Vector3(0, size, 0), Vector3(size, size, size), Vector3(size, size, 0)}});
+
+
+    
     while(program_running)
     {
         while(SDL_PollEvent(&event))
@@ -106,13 +132,17 @@ int main()
 
         Object::renderWireframe(renderer, &cube, camX, camY, camZ, fov, WIDTH, HEIGHT,
             target, COLOR_WHITE);
+        /*
         Object::renderWireframe(renderer, &cube2, camX, camY, camZ, fov, WIDTH, HEIGHT,
             target, COLOR_RED);
         Object::renderWireframe(renderer, &plane, camX, camY, camZ, fov, WIDTH, HEIGHT,
             target, COLOR_WHITE);
-
+        */
         Object::renderWireframe_tri(renderer, &plane_tri, camX, camY, camZ, fov, WIDTH, HEIGHT,
         target, COLOR_RED);
+
+        Object::renderWireframe_tri(renderer, &cube_tri, camX, camY, camZ, fov, WIDTH, HEIGHT,
+            target, COLOR_GREEN);
 
         SDL_RenderPresent(renderer);
         SDL_Delay(1);

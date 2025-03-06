@@ -108,6 +108,7 @@ TestProject_EXTERNAL_OBJECTS =
 TestProject: CMakeFiles/TestProject.dir/src/main.cpp.o
 TestProject: CMakeFiles/TestProject.dir/src/renderer.cpp.o
 TestProject: CMakeFiles/TestProject.dir/build.make
+TestProject: /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/libSDL3.so
 TestProject: CMakeFiles/TestProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksisuo/Projects/cpp/SDL3_begin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TestProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TestProject.dir/link.txt --verbose=$(VERBOSE)

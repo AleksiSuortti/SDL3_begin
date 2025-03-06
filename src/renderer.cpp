@@ -96,14 +96,25 @@ void Object::renderWireframe_tri(SDL_Renderer* renderer, Object::Wireframe_tri* 
         // Maybe a little scuffed way to compute the view direction from the viewport to a triangle
         Vector3 viewDir = (tri.vertices[0] - viewpoint).normalize();
 
-        printf("Viewdir: (%f, %f, %f)\n", viewDir.x, viewDir.y, viewDir.z);
+        float view_normal_alignment = viewDir.dot(tri.normal.normalize());
 
-        // If the triangle normal points toward the viewport
-        if (viewDir.dot(tri.normal.normalize()) < 0) { 
-            printf("Triangle %d is visible, normal : %f\n", i, viewDir.dot(tri.normal.normalize()));
-        }
-        else {
-            printf("Triangle %d is not visible, normal: %f", i, viewDir.dot(tri.normal));
+        printf("Viewport face normal alignment; %f\n", view_normal_alignment);
+
+        if(view_normal_alignment < 0) {
+
+            Vector2 projectedVertices[3];
+
+            for(int k = 0; k < 3; k++) {
+                
+                Vector3 projected = MVP * tri.vertices[k];
+
+                projectedVertices[k].x = (projected.x + 1) * width/2;
+                projectedVertices[k].y = (1 - projected.y) * height/2; 
+            }
+
+            SDL_RenderLine(renderer, projectedVertices[0].x, projectedVertices[0].y, projectedVertices[1].x, projectedVertices[1].y);
+            SDL_RenderLine(renderer, projectedVertices[0].x, projectedVertices[0].y, projectedVertices[2].x, projectedVertices[2].y);
+            SDL_RenderLine(renderer, projectedVertices[1].x, projectedVertices[1].y, projectedVertices[2].x, projectedVertices[2].y);
         }
     }    
 }

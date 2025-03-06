@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/aleksisuo/Projects/SDL3_begin/build"
+			"value" : "/home/aleksisuo/Projects/cpp/SDL3_begin/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -92,6 +92,22 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_COLOR_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable color output during build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -139,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -267,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -527,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/aleksisuo/Projects/SDL3_begin/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/aleksisuo/Projects/cpp/SDL3_begin/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +555,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -587,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/aleksisuo/Projects/SDL3_begin"
+			"value" : "/home/aleksisuo/Projects/cpp/SDL3_begin"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -639,11 +655,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Program used to build from build.ninja files."
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ninja"
+			"value" : "/usr/bin/gmake"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1123,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/aleksisuo/Projects/SDL3_begin/build"
+			"value" : "/home/aleksisuo/Projects/cpp/SDL3_begin/build"
 		},
 		{
 			"name" : "TestProject_IS_TOP_LEVEL",
@@ -1147,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/aleksisuo/Projects/SDL3_begin"
+			"value" : "/home/aleksisuo/Projects/cpp/SDL3_begin"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

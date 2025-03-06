@@ -184,68 +184,67 @@ CMakeFiles/TestProject.dir/src/main.cpp.o: /home/aleksisuo/Projects/cpp/SDL3_beg
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
-  /usr/local/include/SDL3/SDL.h \
-  /usr/local/include/SDL3/SDL_stdinc.h \
-  /usr/local/include/SDL3/SDL_platform_defines.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_stdinc.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform_defines.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/local/include/SDL3/SDL_begin_code.h \
-  /usr/local/include/SDL3/SDL_close_code.h \
-  /usr/local/include/SDL3/SDL_assert.h \
-  /usr/local/include/SDL3/SDL_asyncio.h \
-  /usr/local/include/SDL3/SDL_atomic.h \
-  /usr/local/include/SDL3/SDL_audio.h \
-  /usr/local/include/SDL3/SDL_endian.h \
-  /usr/local/include/SDL3/SDL_error.h \
-  /usr/local/include/SDL3/SDL_mutex.h \
-  /usr/local/include/SDL3/SDL_thread.h \
-  /usr/local/include/SDL3/SDL_properties.h \
-  /usr/local/include/SDL3/SDL_iostream.h \
-  /usr/local/include/SDL3/SDL_bits.h \
-  /usr/local/include/SDL3/SDL_blendmode.h \
-  /usr/local/include/SDL3/SDL_camera.h \
-  /usr/local/include/SDL3/SDL_pixels.h \
-  /usr/local/include/SDL3/SDL_surface.h \
-  /usr/local/include/SDL3/SDL_rect.h \
-  /usr/local/include/SDL3/SDL_clipboard.h \
-  /usr/local/include/SDL3/SDL_cpuinfo.h \
-  /usr/local/include/SDL3/SDL_dialog.h \
-  /usr/local/include/SDL3/SDL_video.h \
-  /usr/local/include/SDL3/SDL_events.h \
-  /usr/local/include/SDL3/SDL_gamepad.h \
-  /usr/local/include/SDL3/SDL_guid.h \
-  /usr/local/include/SDL3/SDL_joystick.h \
-  /usr/local/include/SDL3/SDL_power.h \
-  /usr/local/include/SDL3/SDL_sensor.h \
-  /usr/local/include/SDL3/SDL_keyboard.h \
-  /usr/local/include/SDL3/SDL_keycode.h \
-  /usr/local/include/SDL3/SDL_scancode.h \
-  /usr/local/include/SDL3/SDL_mouse.h \
-  /usr/local/include/SDL3/SDL_pen.h \
-  /usr/local/include/SDL3/SDL_touch.h \
-  /usr/local/include/SDL3/SDL_filesystem.h \
-  /usr/local/include/SDL3/SDL_gpu.h \
-  /usr/local/include/SDL3/SDL_haptic.h \
-  /usr/local/include/SDL3/SDL_hidapi.h \
-  /usr/local/include/SDL3/SDL_hints.h \
-  /usr/local/include/SDL3/SDL_init.h \
-  /usr/local/include/SDL3/SDL_loadso.h \
-  /usr/local/include/SDL3/SDL_locale.h \
-  /usr/local/include/SDL3/SDL_log.h \
-  /usr/local/include/SDL3/SDL_messagebox.h \
-  /usr/local/include/SDL3/SDL_metal.h \
-  /usr/local/include/SDL3/SDL_misc.h \
-  /usr/local/include/SDL3/SDL_platform.h \
-  /usr/local/include/SDL3/SDL_process.h \
-  /usr/local/include/SDL3/SDL_render.h \
-  /usr/local/include/SDL3/SDL_storage.h \
-  /usr/local/include/SDL3/SDL_system.h \
-  /usr/local/include/SDL3/SDL_time.h \
-  /usr/local/include/SDL3/SDL_timer.h \
-  /usr/local/include/SDL3/SDL_tray.h \
-  /usr/local/include/SDL3/SDL_version.h \
-  /usr/local/include/SDL3/SDL_oldnames.h \
-  /usr/local/include/SDL3_ttf/SDL_ttf.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_begin_code.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_close_code.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_assert.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_asyncio.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_atomic.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_audio.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_endian.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_error.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mutex.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_thread.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_properties.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_iostream.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_bits.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_blendmode.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_camera.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pixels.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_surface.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_rect.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_clipboard.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_cpuinfo.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_dialog.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_video.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_events.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gamepad.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_guid.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_joystick.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_power.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_sensor.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keyboard.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keycode.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_scancode.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mouse.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pen.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_touch.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_filesystem.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gpu.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_haptic.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hidapi.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hints.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_init.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_loadso.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_locale.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_log.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_messagebox.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_metal.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_misc.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_process.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_render.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_storage.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_system.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_time.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_timer.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_tray.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_version.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_oldnames.h \
   /home/aleksisuo/Projects/cpp/SDL3_begin/include/renderer.h \
   /usr/include/c++/12/math.h \
   /usr/include/c++/12/cmath \
@@ -283,9 +282,9 @@ CMakeFiles/TestProject.dir/src/main.cpp.o: /home/aleksisuo/Projects/cpp/SDL3_beg
 
 CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3_begin/src/renderer.cpp \
   /usr/include/stdc-predef.h \
-  /usr/local/include/SDL3/SDL.h \
-  /usr/local/include/SDL3/SDL_stdinc.h \
-  /usr/local/include/SDL3/SDL_platform_defines.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_stdinc.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform_defines.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
   /usr/include/stdint.h \
@@ -317,69 +316,68 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/local/include/SDL3/SDL_begin_code.h \
-  /usr/local/include/SDL3/SDL_close_code.h \
-  /usr/local/include/SDL3/SDL_assert.h \
-  /usr/local/include/SDL3/SDL_asyncio.h \
-  /usr/local/include/SDL3/SDL_atomic.h \
-  /usr/local/include/SDL3/SDL_audio.h \
-  /usr/local/include/SDL3/SDL_endian.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_begin_code.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_close_code.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_assert.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_asyncio.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_atomic.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_audio.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_endian.h \
   /usr/include/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/local/include/SDL3/SDL_error.h \
-  /usr/local/include/SDL3/SDL_mutex.h \
-  /usr/local/include/SDL3/SDL_thread.h \
-  /usr/local/include/SDL3/SDL_properties.h \
-  /usr/local/include/SDL3/SDL_iostream.h \
-  /usr/local/include/SDL3/SDL_bits.h \
-  /usr/local/include/SDL3/SDL_blendmode.h \
-  /usr/local/include/SDL3/SDL_camera.h \
-  /usr/local/include/SDL3/SDL_pixels.h \
-  /usr/local/include/SDL3/SDL_surface.h \
-  /usr/local/include/SDL3/SDL_rect.h \
-  /usr/local/include/SDL3/SDL_clipboard.h \
-  /usr/local/include/SDL3/SDL_cpuinfo.h \
-  /usr/local/include/SDL3/SDL_dialog.h \
-  /usr/local/include/SDL3/SDL_video.h \
-  /usr/local/include/SDL3/SDL_events.h \
-  /usr/local/include/SDL3/SDL_gamepad.h \
-  /usr/local/include/SDL3/SDL_guid.h \
-  /usr/local/include/SDL3/SDL_joystick.h \
-  /usr/local/include/SDL3/SDL_power.h \
-  /usr/local/include/SDL3/SDL_sensor.h \
-  /usr/local/include/SDL3/SDL_keyboard.h \
-  /usr/local/include/SDL3/SDL_keycode.h \
-  /usr/local/include/SDL3/SDL_scancode.h \
-  /usr/local/include/SDL3/SDL_mouse.h \
-  /usr/local/include/SDL3/SDL_pen.h \
-  /usr/local/include/SDL3/SDL_touch.h \
-  /usr/local/include/SDL3/SDL_filesystem.h \
-  /usr/local/include/SDL3/SDL_gpu.h \
-  /usr/local/include/SDL3/SDL_haptic.h \
-  /usr/local/include/SDL3/SDL_hidapi.h \
-  /usr/local/include/SDL3/SDL_hints.h \
-  /usr/local/include/SDL3/SDL_init.h \
-  /usr/local/include/SDL3/SDL_loadso.h \
-  /usr/local/include/SDL3/SDL_locale.h \
-  /usr/local/include/SDL3/SDL_log.h \
-  /usr/local/include/SDL3/SDL_messagebox.h \
-  /usr/local/include/SDL3/SDL_metal.h \
-  /usr/local/include/SDL3/SDL_misc.h \
-  /usr/local/include/SDL3/SDL_platform.h \
-  /usr/local/include/SDL3/SDL_process.h \
-  /usr/local/include/SDL3/SDL_render.h \
-  /usr/local/include/SDL3/SDL_storage.h \
-  /usr/local/include/SDL3/SDL_system.h \
-  /usr/local/include/SDL3/SDL_time.h \
-  /usr/local/include/SDL3/SDL_timer.h \
-  /usr/local/include/SDL3/SDL_tray.h \
-  /usr/local/include/SDL3/SDL_version.h \
-  /usr/local/include/SDL3/SDL_oldnames.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_error.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mutex.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_thread.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_properties.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_iostream.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_bits.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_blendmode.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_camera.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pixels.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_surface.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_rect.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_clipboard.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_cpuinfo.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_dialog.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_video.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_events.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gamepad.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_guid.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_joystick.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_power.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_sensor.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keyboard.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keycode.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_scancode.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mouse.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pen.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_touch.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_filesystem.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gpu.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_haptic.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hidapi.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hints.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_init.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_loadso.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_locale.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_log.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_messagebox.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_metal.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_misc.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_process.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_render.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_storage.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_system.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_time.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_timer.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_tray.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_version.h \
+  /home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_oldnames.h \
   /home/aleksisuo/Projects/cpp/SDL3_begin/include/renderer.h \
-  /usr/local/include/SDL3_ttf/SDL_ttf.h \
   /usr/include/c++/12/math.h \
   /usr/include/c++/12/cmath \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -570,8 +568,6 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/bits/stl_bvector.h:
 
-/usr/include/c++/12/bits/stl_vector.h:
-
 /usr/include/c++/12/bits/stl_uninitialized.h:
 
 /usr/include/c++/12/tr1/poly_laguerre.tcc:
@@ -588,6 +584,8 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/tr1/special_function_util.h:
 
+/usr/include/c++/12/tr1/gamma.tcc:
+
 /usr/include/c++/12/limits:
 
 /usr/include/c++/12/bits/specfun.h:
@@ -596,9 +594,11 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/bits/range_access.h:
 
-/usr/local/include/SDL3/SDL_scancode.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gpu.h:
 
 /usr/include/c++/12/bits/functexcept.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_messagebox.h:
 
 /usr/include/c++/12/bits/refwrap.h:
 
@@ -606,7 +606,11 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/pstl/pstl_config.h:
 
+/usr/include/c++/12/bits/stl_function.h:
+
 /usr/include/c++/12/debug/debug.h:
+
+/usr/include/c++/12/bits/concept_check.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
 
@@ -615,6 +619,12 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
 
 /usr/include/c++/12/bits/cxxabi_forced.h:
+
+/usr/include/c++/12/bits/new_allocator.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_surface.h:
+
+/usr/include/c++/12/bits/cpp_type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -625,6 +635,14 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 /usr/include/c++/12/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/12/vector:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_events.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keycode.h:
 
 /usr/include/time.h:
 
@@ -640,21 +658,27 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/strings.h:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_version.h:
+
 /usr/include/c++/12/initializer_list:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_blendmode.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_dialog.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -674,37 +698,23 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/bits/stl_iterator.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/12/cstdio:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
-
-/usr/local/include/SDL3_ttf/SDL_ttf.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/12/bits/stl_algobase.h:
 
-/usr/include/c++/12/bits/stl_function.h:
-
-/usr/local/include/SDL3/SDL_keyboard.h:
-
-/usr/local/include/SDL3/SDL_haptic.h:
-
 /usr/include/ctype.h:
-
-/usr/local/include/SDL3/SDL_close_code.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/c++/12/bits/localefwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/wchar.h:
 
@@ -722,7 +732,11 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/linux/errno.h:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_touch.h:
+
 /usr/include/features-time64.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_audio.h:
 
 /usr/include/c++/12/cctype:
 
@@ -732,13 +746,21 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/ios:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_error.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_thread.h:
+
 /usr/include/c++/12/ostream:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_keyboard.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 
 /usr/include/pthread.h:
 
-/usr/local/include/SDL3/SDL_hidapi.h:
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -752,11 +774,15 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_time.h:
+
 /home/aleksisuo/Projects/cpp/SDL3_begin/src/main.cpp:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+/usr/include/c++/12/bits/ptr_traits.h:
 
-/usr/local/include/SDL3/SDL_endian.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_guid.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
@@ -766,13 +792,15 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_loadso.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/12/bits/move.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/local/include/SDL3/SDL_properties.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -790,9 +818,7 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/local/include/SDL3/SDL_asyncio.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_begin_code.h:
 
 /usr/include/c++/12/ext/alloc_traits.h:
 
@@ -806,12 +832,6 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
 
-/usr/local/include/SDL3/SDL_blendmode.h:
-
-/usr/include/c++/12/bits/new_allocator.h:
-
-/usr/local/include/SDL3/SDL_platform.h:
-
 /usr/include/c++/12/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -820,11 +840,13 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/local/include/SDL3/SDL_gpu.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
+/usr/include/c++/12/debug/assertions.h:
+
 /usr/include/c++/12/bits/std_abs.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_init.h:
 
 /usr/include/c++/12/exception:
 
@@ -833,6 +855,8 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 /usr/include/features.h:
 
 /usr/include/c++/12/new:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_assert.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -846,7 +870,9 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/local/include/SDL3/SDL_begin_code.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_clipboard.h:
 
 /usr/include/math.h:
 
@@ -854,15 +880,9 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/bits/exception_ptr.h:
 
-/usr/local/include/SDL3/SDL_rect.h:
-
 /usr/include/c++/12/ext/numeric_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/12/bits/cpp_type_traits.h:
-
-/usr/local/include/SDL3/SDL_joystick.h:
 
 /usr/include/c++/12/bits/locale_classes.h:
 
@@ -870,9 +890,7 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/backward/binders.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/local/include/SDL3/SDL_time.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_locale.h:
 
 /usr/include/c++/12/bits/cxxabi_init_exception.h:
 
@@ -884,25 +902,23 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_stdinc.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform_defines.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_tray.h:
+
 /usr/include/c++/12/math.h:
 
 /usr/include/c++/12/typeinfo:
 
-/usr/local/include/SDL3/SDL_thread.h:
-
-/usr/local/include/SDL3/SDL_oldnames.h:
-
 /usr/include/c++/12/bits/nested_exception.h:
 
-/usr/local/include/SDL3/SDL_render.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_bits.h:
 
 /usr/include/c++/12/bits/char_traits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/local/include/SDL3/SDL_atomic.h:
 
 /usr/include/c++/12/bits/memoryfwd.h:
 
@@ -910,15 +926,17 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_rect.h:
+
 /usr/include/c++/12/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/12/bits/alloc_traits.h:
 
-/usr/include/c++/12/bits/ptr_traits.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pen.h:
 
-/usr/local/include/SDL3/SDL_cpuinfo.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_cpuinfo.h:
 
 /usr/include/c++/12/bits/stl_construct.h:
 
@@ -926,19 +944,15 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/stdio.h:
 
-/usr/local/include/SDL3/SDL_touch.h:
-
 /usr/include/c++/12/tr1/modified_bessel_func.tcc:
 
 /usr/include/stdlib.h:
 
 /usr/include/c++/12/bits/vector.tcc:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_joystick.h:
+
 /usr/include/c++/12/ext/string_conversions.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/local/include/SDL3/SDL_guid.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -946,17 +960,9 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/local/include/SDL3/SDL_loadso.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/local/include/SDL3/SDL.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/12/tr1/gamma.tcc:
-
-/usr/local/include/SDL3/SDL_init.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -972,17 +978,17 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/12/ext/type_traits.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_filesystem.h:
 
-/usr/local/include/SDL3/SDL_metal.h:
+/usr/include/c++/12/ext/type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hidapi.h:
 
-/usr/local/include/SDL3/SDL_system.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/errno.h:
 
@@ -998,15 +1004,13 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/c++/12/bits/charconv.h:
 
 /usr/include/c++/12/bits/basic_string.tcc:
 
-/usr/local/include/SDL3/SDL_clipboard.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_render.h:
 
 /usr/include/c++/12/system_error:
 
@@ -1014,9 +1018,15 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/streambuf:
 
-/usr/local/include/SDL3/SDL_timer.h:
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/local/include/SDL3/SDL_assert.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_process.h:
+
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_iostream.h:
+
+/usr/include/c++/12/bits/streambuf.tcc:
+
+/usr/include/c++/12/bits/basic_ios.h:
 
 /usr/include/c++/12/string_view:
 
@@ -1024,87 +1034,73 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/c++/12/bits/ostream.tcc:
 
-/usr/local/include/SDL3/SDL_log.h:
-
 /usr/include/c++/12/tr1/hypergeometric.tcc:
 
 /usr/include/c++/12/cwctype:
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
-/usr/local/include/SDL3/SDL_surface.h:
-
 /usr/include/c++/12/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
 
-/usr/local/include/SDL3/SDL_stdinc.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_storage.h:
 
-/usr/local/include/SDL3/SDL_platform_defines.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL.h:
 
 /usr/include/string.h:
 
-/usr/include/c++/12/debug/assertions.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_close_code.h:
 
-/usr/local/include/SDL3/SDL_audio.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_asyncio.h:
 
-/usr/local/include/SDL3/SDL_error.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_atomic.h:
 
-/usr/include/c++/12/bits/basic_ios.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_endian.h:
 
-/usr/local/include/SDL3/SDL_mutex.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mutex.h:
 
-/usr/local/include/SDL3/SDL_iostream.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_properties.h:
 
-/usr/local/include/SDL3/SDL_bits.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_camera.h:
 
-/usr/local/include/SDL3/SDL_camera.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_pixels.h:
 
-/usr/local/include/SDL3/SDL_pixels.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_video.h:
 
-/usr/local/include/SDL3/SDL_dialog.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_gamepad.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+/usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
-/usr/local/include/SDL3/SDL_video.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_power.h:
 
-/usr/local/include/SDL3/SDL_power.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_timer.h:
 
-/usr/local/include/SDL3/SDL_events.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_sensor.h:
 
-/usr/local/include/SDL3/SDL_gamepad.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_scancode.h:
 
-/usr/local/include/SDL3/SDL_sensor.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_mouse.h:
 
-/usr/local/include/SDL3/SDL_keycode.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_log.h:
 
-/usr/include/c++/12/bits/streambuf.tcc:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_haptic.h:
 
-/usr/local/include/SDL3/SDL_pen.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_hints.h:
 
-/usr/local/include/SDL3/SDL_mouse.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_metal.h:
 
-/usr/local/include/SDL3/SDL_messagebox.h:
+/usr/include/c++/12/bits/stl_vector.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_misc.h:
 
-/usr/local/include/SDL3/SDL_filesystem.h:
+/usr/include/c++/12/cstdio:
 
-/usr/local/include/SDL3/SDL_hints.h:
+/usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
 
-/usr/local/include/SDL3/SDL_locale.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_platform.h:
 
-/usr/local/include/SDL3/SDL_misc.h:
-
-/usr/include/c++/12/vector:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/local/include/SDL3/SDL_process.h:
-
-/usr/local/include/SDL3/SDL_tray.h:
-
-/usr/local/include/SDL3/SDL_storage.h:
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_system.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h:
 
@@ -1112,12 +1108,12 @@ CMakeFiles/TestProject.dir/src/renderer.cpp.o: /home/aleksisuo/Projects/cpp/SDL3
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
+/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/SDL_oldnames.h:
+
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/12/bits/concept_check.h:
-
-/usr/local/include/SDL3/SDL_version.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:

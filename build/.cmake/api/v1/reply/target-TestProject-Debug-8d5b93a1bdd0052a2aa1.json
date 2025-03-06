@@ -62,11 +62,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/aleksisuo/Projects/SDL3_begin/include"
+					"path" : "/home/aleksisuo/Projects/cpp/SDL3_begin/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/aleksisuo/Projects/SDL3_begin/include/SDL3"
+					"path" : "/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3"
 				}
 			],
 			"language" : "CXX",
@@ -99,12 +99,12 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/aleksisuo/Projects/SDL3_begin/include/SDL3",
+				"fragment" : "-Wl,-rpath,/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/home/aleksisuo/Projects/SDL3_begin/include/SDL3/libSDL3.so",
+				"fragment" : "/home/aleksisuo/Projects/cpp/SDL3_begin/include/SDL3/libSDL3.so",
 				"role" : "libraries"
 			}
 		],
