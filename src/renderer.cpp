@@ -138,6 +138,11 @@ void drawLine(SDL_Renderer* renderer, float x, float y, double angle, double len
     SDL_RenderLine(renderer, x, y, x_end, y_end);
 }
 
+void drawLine_pixel(SDL_Renderer* renderer, float x, float y, float x_end, float y_end) {
+
+    SDL_RenderPoint(renderer, x, y);
+}
+
 void cleanupRenderer(SDL_Renderer* renderer)
 {
     if(renderer)

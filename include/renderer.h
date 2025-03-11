@@ -19,6 +19,26 @@ constexpr uint8_t COLOR_RED[4] = {255,0,0,255};
 constexpr uint8_t COLOR_GREEN[4] = {0,255,0,255};
 constexpr uint8_t COLOR_BLUE[4] = {0,0,255,255};
 
+struct Z_buffer {
+    float* z_buffer;
+    int width;
+    int height;
+
+    Z_buffer(int w, int h) : width(w), height(h) {
+
+        z_buffer = new float[width * height];
+        std::fill(z_buffer, z_buffer + (width * height), 1.0f); 
+    }
+
+    ~Z_buffer() {
+        delete[] z_buffer;
+    }
+
+    float& get(int x, int y) {
+        return z_buffer[y * width + x];
+    }
+};
+
 struct Vector3 {
 
     float x, y, z;
@@ -236,6 +256,16 @@ SDL_Renderer* initRenderer(SDL_Window* window);
  * \param color uint8_t array, {R, G, B, A} values of a color
  */
 void drawLine(SDL_Renderer* renderer, float x, float y, double angle, double length, const uint8_t* color);
+
+/**
+ * @brief Draws a line pixel by pixel
+ */
+void drawLine_pixel(SDL_Renderer* renderer, float x, float y, float x_end, float y_end);
+
+/**
+ * @brief Draws a single pixel
+ */
+void drawPixel(SDL_Renderer* renderer, float x, float y);
 
 void cleanupRenderer(SDL_Renderer * renderer);
 

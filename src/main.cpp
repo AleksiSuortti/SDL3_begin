@@ -99,7 +99,7 @@ int main()
     cube_tri.addTriangles({{Vector3(0, size, 0), Vector3(0, size, size), Vector3(size, size, size)}}); // Top face
     cube_tri.addTriangles({{Vector3(0, size, 0), Vector3(size, size, size), Vector3(size, size, 0)}});
 
-
+    struct Z_buffer z_buffer(WIDTH, HEIGHT);
     
     while(program_running)
     {
