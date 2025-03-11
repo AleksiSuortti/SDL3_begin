@@ -1,3 +1,0 @@
-/home/aleksisuo/Projects/SDL3_begin/build/CMakeFiles/TestProject.dir
-/home/aleksisuo/Projects/SDL3_begin/build/CMakeFiles/edit_cache.dir
-/home/aleksisuo/Projects/SDL3_begin/build/CMakeFiles/rebuild_cache.dir
