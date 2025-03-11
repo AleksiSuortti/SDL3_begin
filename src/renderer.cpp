@@ -98,8 +98,6 @@ void Object::renderWireframe_tri(SDL_Renderer* renderer, Object::Wireframe_tri* 
 
         float view_normal_alignment = viewDir.dot(tri.normal.normalize());
 
-        printf("Viewport face normal alignment; %f\n", view_normal_alignment);
-
         if(view_normal_alignment < 0) {
 
             Vector2 projectedVertices[3];

@@ -134,7 +134,7 @@ namespace Object {
     void renderWireframe_tri(SDL_Renderer* renderer, Object::Wireframe_tri* wireframe, float camX, float camY, float camZ,
         float fov, float width, float height, Vector3 target, const uint8_t* color);
 
-    }
+}
 
 
 struct Vector2 {
