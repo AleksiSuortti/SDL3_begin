@@ -77,7 +77,7 @@ void Object::renderWireframe(SDL_Renderer* renderer, Object::Wireframe* wirefram
     }
 }
 
-void Object::renderWireframe_tri(SDL_Renderer* renderer, Object::Wireframe_tri* wireframe, float camX, float camY, float camZ,
+void Object::renderWireframe_tri(SDL_Renderer* renderer, Z_buffer* z_buffer, Object::Wireframe_tri* wireframe, float camX, float camY, float camZ,
     float fov, float width, float height, Vector3 target, const uint8_t* color) {
 
     SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);

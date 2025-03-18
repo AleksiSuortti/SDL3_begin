@@ -151,7 +151,7 @@ namespace Object {
     /**
      * @brief Renders triangle-based objects to the renderer
      */
-    void renderWireframe_tri(SDL_Renderer* renderer, Object::Wireframe_tri* wireframe, float camX, float camY, float camZ,
+    void renderWireframe_tri(SDL_Renderer* renderer, Z_buffer* z_buffer, Object::Wireframe_tri* wireframe, float camX, float camY, float camZ,
         float fov, float width, float height, Vector3 target, const uint8_t* color);
 
 }

@@ -138,10 +138,10 @@ int main()
         Object::renderWireframe(renderer, &plane, camX, camY, camZ, fov, WIDTH, HEIGHT,
             target, COLOR_WHITE);
         */
-        Object::renderWireframe_tri(renderer, &plane_tri, camX, camY, camZ, fov, WIDTH, HEIGHT,
+        Object::renderWireframe_tri(renderer, &z_buffer, &plane_tri, camX, camY, camZ, fov, WIDTH, HEIGHT,
         target, COLOR_RED);
 
-        Object::renderWireframe_tri(renderer, &cube_tri, camX, camY, camZ, fov, WIDTH, HEIGHT,
+        Object::renderWireframe_tri(renderer, &z_buffer, &cube_tri, camX, camY, camZ, fov, WIDTH, HEIGHT,
             target, COLOR_GREEN);
 
         SDL_RenderPresent(renderer);
